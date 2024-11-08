@@ -1,0 +1,29 @@
+﻿@model Homework15.Models.Patient
+
+<form method="post" action="Reservation">
+    <div style="display: flex; flex-direction: column">
+        <label>FirstName</label>
+        <input type="text" class="col-3" name="FirstName" value="@Model?.FirstName"/>
+        <label>LastName</label>
+        <input type="text" class="col-3" name="LastName" value="@Model?.LastName" />
+        <label>choose a Doctor</label>
+        <select id="doctorType" name="doctorType" value="@Model?.DoctorType" class="col-3" style="height: 33px;">
+            <option value="" disabled selected>Select a Doctor Type</option>
+            <option value="dantist">Dantist</option>
+            <option value="cardiolosgist">Cardiologist</option>
+            <option value="dermatologist">Dermatologist</option>
+            <option value="neurologist">Neurologist</option>
+            <option value="pediatrician">Pediatrician</option>
+            <option value="orthopedist">Orthopedist</option>
+            <option value="gynecologist">Gynecologist</option>
+            <option value="surgeon">Surgeon</option>
+            <option value="psychiatrist">Psychiatrist</option>
+        </select>
+
+        <label>Visit Time</label>
+        <input type="time" class="col-3" name="VisitTime" value="@Model?.VisitTime" />
+
+        <button type="submit" class="col-3" style="margin-top: 15px" >Submit</button>
+
+    </div>
+</form>

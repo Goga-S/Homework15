@@ -1,0 +1,44 @@
+[
+  {
+    "FirstName": "Goga",
+    "LastName": "Samsonia",
+    "DoctorType": "dantist",
+    "VisitTime": "2024-11-07T23:33:00"
+  },
+  {
+    "FirstName": "Tamta",
+    "LastName": "Tvauri",
+    "DoctorType": "dantist",
+    "VisitTime": "2024-11-07T10:36:00"
+  },
+  {
+    "FirstName": "Eka",
+    "LastName": "Kekua",
+    "DoctorType": "dermatologist",
+    "VisitTime": "2024-11-07T13:56:00"
+  },
+  {
+    "FirstName": "Eka",
+    "LastName": "Kekua",
+    "DoctorType": "dermatologist",
+    "VisitTime": "2024-11-07T13:56:00"
+  },
+  {
+    "FirstName": "Giga",
+    "LastName": "Gogia",
+    "DoctorType": "dantist",
+    "VisitTime": "2024-11-08T04:08:00"
+  },
+  {
+    "FirstName": "Giga",
+    "LastName": "Gogia",
+    "DoctorType": "dantist",
+    "VisitTime": "2024-11-08T04:08:00"
+  },
+  {
+    "FirstName": "Giga",
+    "LastName": "GiGiadze",
+    "DoctorType": "cardiolosgist",
+    "VisitTime": "2024-11-08T03:09:00"
+  }
+]
